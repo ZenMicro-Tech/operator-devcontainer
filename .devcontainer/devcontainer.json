@@ -6,12 +6,9 @@
 	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
 
 	"features": {
-		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {
-			"version": "latest",
-			"helm": "latest",
-			"minikube": "none"
-		},
-		"./local-features/copy-kube-config": {}
+		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
+		"./local-features/copy-kube-config": {},
+		"ghcr.io/audacioustux/devcontainers/operator-sdk:1": {}
 	},
 
 	"remoteEnv": {
